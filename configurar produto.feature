@@ -19,11 +19,6 @@
            E não selecionar a quantidade
            Então deve aparecer a mensagem "Produto(s) não configurado(s), falta informar a quantidade"
 
-           Cenário: Produto(s) selecionado(s) corretamente
-           Quando eu selecionar cor  
-           E não selecionar o tamanho e a quantidade 
-           Então deve aparecer a mensagem "Produto(s) não configurado(s), falta informar a tamanho e quantidade"
-
            Cenário: Seleção de 10 de produtos na venda
            Quando eu selecionar 10 produtos na venda  
            Então não deve aparecer nenhuma mensagem
@@ -31,10 +26,6 @@
            Cenário: Seleção incorreta de produtos na venda
            Quando eu selecionar 15 produtos na venda  
            Então Deve aparecer a seguinte mensagem "Número de produtos selecionados excede o permitido"
-
-           Cenário: Seleção 8 de produtos na venda
-           Quando eu selecionar 8 produtos na venda  
-           Então não deve aparecer nenhuma mensagem
 
            Cenário: Clicar no botão "limpar" venda volta ao estado original
            Quando eu clicar no botão "limpar" 

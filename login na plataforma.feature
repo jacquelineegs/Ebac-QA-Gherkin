@@ -13,20 +13,15 @@
             E a senha 123@123
             Então deve ser enviado para a página de checkout e aparecer a mensagem "Olá Jacqueline Silva"
 
-            Cenário: Autenticação inválida
+            Cenário: Senha inválida
             Quando eu digitar o usuário jacquegsilva@gmail.com
             E a senha 123@
             Então deve aparecer a mensagem de alerta "Senha inválida"
 
-            Cenário: Autenticação inválida
+            Cenário: usuário inválido
             Quando eu digitar o usuário jacqueg@gmail.com
             E a senha 123@123
             Então deve aparecer a mensagem de alerta "Usuário Inválido"
-
-            Cenário: Autenticação inválida
-            Quando eu digitar o usuário jacquegsilva@gmail.com
-            E a senha 123@
-            Então deve aparecer a mensagem de alerta "Senha inválida"
 
             Esquema do Cenário: Autenticar multiplos usuário
             Quando eu digitar o <usuario>
